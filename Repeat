@@ -1,0 +1,7 @@
+ #Repeat function
+repeat = 'yes'
+while (repeat == 'yes'):
+  #Insert code here
+  repeat = input("Would you like to play again? (yes or no): ")
+
+print("Thank you for playing!")
