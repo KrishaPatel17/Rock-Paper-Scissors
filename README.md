@@ -4,7 +4,7 @@ Simple rock,paper,scissors game. When using code please write in lowercase lette
 
 To-do:
 - Random choice for user
-- Point counting 
 
 Log:
-- Randomized opponents option
+- 10/15 Randomized opponents option
+- 10/22 Point couting 
