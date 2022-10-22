@@ -1,0 +1,69 @@
+repeat = 'yes'
+while (repeat == 'yes'):
+  #Randomizing computer choice
+  import random
+  
+  #points
+  computar_point = 0
+  player_point = 0
+  while computar_point < 3 and player_point < 3:
+
+
+  #player's choice
+    player = input("Pick one! (rock, paper, or scissors): ")
+    possible_actions = ["rock", "paper", "scissors"]    
+#computers choice
+    computer = random.choice(possible_actions)
+    print(f"\n You chose {player}, computer chose   {computer}.\n")
+  #If -> Then -> Else
+
+  #Who wins / tie
+    if player == computer:
+      print(f"Both players selected {player}. It's a tie!")
+      print(f"Computar score is {computar_point}.")
+      print(f"Players score is {player_point}.")
+  #Rock
+    elif player == "rock":
+      if computer == "scissors":
+        print("Rock smashes scissors! You win!")
+        player_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+      else:
+        print("Paper covers rock! You lose.")
+        computar_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+  #Paper
+    elif player == "paper":
+      if computer == "rock":
+        print("Paper covers rock! You win!")
+        player_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+      else:
+        print("Scissors cuts paper! You lose.")
+        computar_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+  #Scissors
+    elif player == "scissors":
+      if computer == "paper":
+        print("Scissors cuts paper! You win!")
+        player_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+      else:
+        print("Rock smashes scissors! You lose.")
+        computar_point += 1
+        print(f"Computar score is {computar_point}.")
+        print(f"Players score is {player_point}.")
+    print('------------------')
+  if (computar_point > player_point):
+    repeat = input("You lost.. would you like to try again? (yes or no): ")
+  else:
+    repeat = input("You won! Want to see if you can do it again? (yes or no): ")
+
+print("Thank you for playing!")
+
+ 
