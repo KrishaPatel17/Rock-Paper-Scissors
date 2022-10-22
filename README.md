@@ -8,3 +8,4 @@ To-do:
 Log:
 - 10/15 Randomized opponents option
 - 10/22 Point couting 
+- 10/22 Code will now stop after 3 rounds unless you choose 'yes' to play again.
