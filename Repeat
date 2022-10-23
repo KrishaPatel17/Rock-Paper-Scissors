@@ -2,6 +2,7 @@
 repeat = 'yes'
 while (repeat == 'yes'):
   #Insert code here
-  repeat = input("Would you like to play again? (yes or no): ")
-
-print("Thank you for playing!")
+  if (computar_point > player_point):
+repeat = input("You lost.. would you like to try again? (yes or no): ")
+  else:
+  repeat = input("You won! Want to see if you can do it again? (yes or no): ")
