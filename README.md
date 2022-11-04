@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors
 
-Simple rock,paper,scissors game. When using code please write in lowercase letters only. If you see any issues please tell me, otherwise thank you for playing!
+Simple rock, paper, scissors game. When using code please write in lowercase letters only. If you see any issues please tell me, otherwise thank you for playing!
 
 To-do:
 - Find how to hide players choices inn multiplayer.
