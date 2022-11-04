@@ -1,3 +1,5 @@
+import getpass
+
 #How you want to play the game
 choice = input("Hi there! How would you like to play? (alone, with a friend):  ")
 
@@ -77,7 +79,7 @@ if choice == 'alone':
       repeat = input("You won! Want to play again? (yes or no): ")
 
   print("Thank you for playing!")
-
+#MULTIPLAYER
 else:
   repeat = 'yes'
   while (repeat == 'yes'):
@@ -87,12 +89,12 @@ else:
       #player 1
       print('------------------')
       print('Player one: ')
-      player_1 = input("Pick one! (rock, paper, or   scissors): ")
+      player_1 = getpass.getpass("Pick one! (rock, paper, or scissors): ")
       possible_actions = ["rock", "paper", "scissors"]   
       #player 2
       print('------------------')
       print('Player two:')
-      player_2 = input("Pick one! (rock, paper, or scissors): ")
+      player_2 = getpass.getpass("Pick one! (rock, paper,  or scissors): ")
       possible_actions = ["rock", "paper", "scissors"] 
       #prints choice
       print('------------------')
