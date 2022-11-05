@@ -11,4 +11,4 @@ Log:
 - 10/22 Code will now stop after 3 rounds unless you choose 'yes' to play again.
 - 10/23 Added a 'random' option for the player.
 - 10/28 Added multiplayer
- -11/4 Multiplayer: Players choices can not be seen until both players have typed in their choices.
+-11/4 Multiplayer: Players choices can not be seen until both players have typed in their choices.
