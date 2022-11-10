@@ -119,3 +119,5 @@ else:
         print ('Player 2 has '+ str(p2) + ' points')
     print('------------------')
     repeat = input("Good game! Would you like to play again? (yes, no): ")
+print(" ")
+print("Thanks for playing!")
